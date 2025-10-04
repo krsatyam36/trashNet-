@@ -29,13 +29,14 @@ F1-score (macro average)	0.8432
 The model achieved an overall accuracy of approximately 86%, with strong balance between precision and recall across most categories.
 
 Per-Class Metrics
-Class	Precision	Recall	F1-Score	Support
-Cardboard	0.9412	0.8533	0.8951	75
-Glass	0.9072	0.8544	0.8800	103
-Metal	0.7526	0.9359	0.8343	78
-Paper	0.8947	0.8947	0.8947	114
-Plastic	0.8866	0.8190	0.8515	105
-Trash	0.6786	0.7308	0.7037	26
+
+Class	      Precision	  Recall	F1-Score	Support
+Cardboard	  0.9412	    0.8533	0.8951	  75
+Glass    	  0.9072	    0.8544	0.8800	  103
+Metal	      0.7526	    0.9359	0.8343	  78
+Paper	      0.8947	    0.8947	0.8947	  114
+Plastic	    0.8866	    0.8190	0.8515	  105
+Trash	      0.6786	    0.7308	0.7037	  26
 
 The model performed best on cardboard, glass, and paper, maintaining consistent precision and recall.
 However, trash and metal classes showed occasional confusion, likely due to visual similarity in textures or color patterns.
