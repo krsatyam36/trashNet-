@@ -1,8 +1,22 @@
-# TrashNet: Automated Waste Classification using Deep Learning
+<div align="center">
 
-A deep learning-based image classification system for automated waste sorting, built on the **TrashNet dataset**. The system uses **ResNet18** with transfer learning to classify waste into six categories — cardboard, glass, metal, paper, plastic, and trash — achieving **86.23% accuracy** on the test set.
+# TrashNet — Automated Waste Classification
 
-The project includes a fully simulated **real-time conveyor belt waste-sorting pipeline** (100 sequential frames with confidence logging), model export to **TorchScript** and **ONNX** formats, and comprehensive evaluation with confusion matrices and classification reports.
+**v1.0.0** — *A deep learning-based waste sorting system using ResNet18, built for smart recycling automation*
+
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org)
+[![ONNX](https://img.shields.io/badge/ONNX-Export-005CED?style=flat&logo=onnx&logoColor=white)](https://onnx.ai)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-F7931E?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
+[![Hugging Face](https://img.shields.io/badge/Datasets-HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/garythung/trashnet)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Accuracy](https://img.shields.io/badge/Accuracy-86.23%25-success)](performace/performance_report)
+
+**Created by [Kumar Satyam](mailto:kumarsatyam3135@gmail.com)**
+
+Classifies waste into **6 categories** — cardboard, glass, metal, paper, plastic, trash — achieving **86.23% test accuracy** with a ResNet18 model fine-tuned via transfer learning. Includes a simulated real-time conveyor belt sorting pipeline, TorchScript/ONNX model export, and comprehensive evaluation.
+
+</div>
 
 ---
 
